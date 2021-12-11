@@ -1025,3 +1025,7 @@ section .container {
 /* .a {
   text-indent: 50px;
 } */
+
+.resume-hover:hover {
+  color: #3f4b45;
+}
