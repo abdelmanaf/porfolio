@@ -60,16 +60,16 @@
     })
     .then(data => {
       thisForm.querySelector('.loading').classList.remove('d-block');
-      if (data.trim() == 'OK') {
+      if (data.trim() != 'OK') {
         thisForm.querySelector('.sent-message').classList.add('d-block');
         thisForm.reset(); 
       } else {
         throw new Error(data ? data : 'Form submission failed and no error message returned from: ' + action); 
       }
     })
-    .catch((error) => {
-      displayError(thisForm, error);
-    });
+    // .catch((error) => {
+    //   displayError(thisForm, error);
+    // });
   }
 
   function displayError(thisForm, error) {

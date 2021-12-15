@@ -909,7 +909,7 @@ section .container {
 .contact .php-email-form .error-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
-  background: #ed3c0d;
+  /* background: #18d26e; */
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -997,42 +997,9 @@ section .container {
   }
 }
 
-/*--------------------------------------------------------------
-# Credits
---------------------------------------------------------------*/
-.credits {
-  position: fixed;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  padding: 15px;
-  text-align: right;
-  font-size: 13px;
-  color: #fff;
-  z-index: 999999;
-}
-@media (max-width: 992px) {
-  .credits {
-    text-align: center;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.8);
-  }
-}
-.credits a {
-  color: #18d26e;
-  transition: 0.3s;
-}
-.credits a:hover {
-  color: #fff;
-}
-
 /*----------------------------------------------
 #Custom style 
 -----------------------------------------------*/
-/* .a {
-  text-indent: 50px;
-} */
-
 .resume-hover:hover {
   color: #3f4b45;
 }
